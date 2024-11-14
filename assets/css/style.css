@@ -690,16 +690,233 @@ AIブログマーケティングとは？
   color: #fff;
 }
 /* =================================
+改善事例
+ ================================= */
+.case-section {
+  background-image: url(../img/case-sectio-bg.jpg);
+  background-size: cover;
+  padding: 80px 12px 0;
+}
+@media (max-width: 820px) {
+  .case-section {
+    padding: 40px 12px;
+  }
+}
+.case-section__ttl-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  max-width: 640px;
+  margin: 0 auto 80px;
+  border-top: #f0ea30 1px solid;
+  border-bottom: #f0ea30 1px solid;
+  padding: 24px;
+}
+@media (max-width: 820px) {
+  .case-section__ttl-wrap {
+    padding: 12px;
+    gap: 16px;
+  }
+}
+.case-section__ttl {
+  color: #f0ea30;
+  font-size: 60px;
+}
+@media (max-width: 820px) {
+  .case-section__ttl {
+    font-size: 32px;
+  }
+}
+.case-section__ttl-img {
+  width: 180px;
+}
+@media (max-width: 820px) {
+  .case-section__ttl-img {
+    width: 100px;
+  }
+}
+.case-section__top-content {
+  max-width: 980px;
+  margin: 0 auto 60px;
+}
+.case-section__top-lead {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  justify-content: center;
+  margin: 0 0 60px;
+}
+@media (max-width: 820px) {
+  .case-section__top-lead {
+    flex-direction: column;
+    gap: 12px;
+  }
+}
+.case-section__top-ttl {
+  max-width: 300px;
+}
+.case-section__top-date {
+  display: flex;
+  gap: 8px;
+}
+.case-section__top-date span {
+  display: inline-block;
+  width: 100px;
+}
+@media (max-width: 820px) {
+  .case-section__top-date span {
+    width: 70px;
+  }
+}
+.case-section__top-date p {
+  color: #53c2ef;
+  font-size: 24px;
+}
+@media (max-width: 820px) {
+  .case-section__top-date p {
+    font-size: 16px;
+  }
+}
+.case-section__top-list-item {
+  color: #fff;
+  font-size: 52px;
+  max-width: 770px;
+  margin: 0 auto 40px;
+  line-height: 1.3;
+}
+@media (max-width: 820px) {
+  .case-section__top-list-item {
+    font-size: 22px;
+    line-height: 1.8;
+    margin: 0 auto 24px;
+  }
+}
+.case-section__top-list-item span {
+  color: #f0ea30;
+}
+.case-section__top-list-span {
+  display: block;
+  text-align: right;
+  font-size: 20px;
+  line-height: 1;
+}
+@media (max-width: 600px) {
+  .case-section__top-list-span {
+    font-size: 15px;
+    text-align: left;
+    margin: 0 0 0 30px;
+  }
+}
+.case-section__top-list-span--white {
+  color: #fff !important;
+  font-size: 14px;
+}
+@media (max-width: 820px) {
+  .case-section__top-list-span--white {
+    text-align: right;
+  }
+}
+.case-section__bottom-content {
+  max-width: 980px;
+  margin: 0 auto 80px;
+}
+@media (max-width: 820px) {
+  .case-section__bottom-content {
+    margin: 0 auto 40px;
+  }
+}
+.case-section__bottom-text {
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  margin: 0 0 4px;
+}
+@media (max-width: 820px) {
+  .case-section__bottom-text {
+    font-size: 20px;
+  }
+}
+.case-section__bottom-img {
+  margin: 0 0 40px;
+}
+.case-section__bottom-list {
+  max-width: 300px;
+  margin-left: auto;
+  position: relative;
+}
+@media (max-width: 820px) {
+  .case-section__bottom-list {
+    margin-top: 100px;
+  }
+}
+.case-section__bottom-list:before {
+  content: url(../img/case-section-list-img.png);
+  position: absolute;
+  top: -21px;
+  left: -182px;
+  transform: scale(0.6);
+}
+@media (max-width: 820px) {
+  .case-section__bottom-list:before {
+    transform: scale(0.4) rotate(-11deg);
+    top: -107px;
+    left: -105px;
+  }
+}
+.case-section__bottom-list-item {
+  color: #fff;
+}
+.case-section__bottom-list-item--last {
+  font-size: 18px;
+  margin: 0 0 0 20px;
+}
+.case-section__bottom-list-item--last span {
+  font-size: 26px;
+  font-weight: bold;
+}
+.case-section__bnr {
+  display: block;
+  max-width: 980px;
+  margin: 80px auto 24px;
+}
+@media (max-width: 820px) {
+  .case-section__bnr {
+    margin: 40px auto 12px;
+  }
+}
+.case-section__dec {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+@media (max-width: 820px) {
+  .case-section__dec {
+    display: none;
+  }
+}
+.case-section__dec img {
+  display: inline-block;
+  max-width: 300px;
+  width: 30%;
+}
 
+/* =================================
+お客様の声
  ================================= */
 /* =================================
-
+料金プラン
  ================================= */
 /* =================================
-
+オプション料金
  ================================= */
 /* =================================
-
+製品仕様一覧
+ ================================= */
+/* =================================
+よくあるお問合せ
+ ================================= */
+/* =================================
+お問合せ
  ================================= */
 /* =================================
 フッター
