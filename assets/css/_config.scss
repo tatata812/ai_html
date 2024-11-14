@@ -30,13 +30,13 @@ body {
 }
 
 p {
-  font-size: clamp(0.813rem, 0.79rem + 0.11vw, 0.875rem);
+  font-size: clamp(0.875rem, 0.782rem + 0.39vw, 1.125rem);
   color: #080808;
 
 }
 
 a {
-  font-size: clamp(0.813rem, 0.79rem + 0.11vw, 0.875rem);
+  font-size: clamp(0.875rem, 0.782rem + 0.39vw, 1.125rem);
   color: #080808;
 
   &:hover {
@@ -59,12 +59,12 @@ ul,
 ol,
 li {
   list-style: none;
-  font-size: clamp(0.813rem, 0.79rem + 0.11vw, 0.875rem);
+  font-size: clamp(0.875rem, 0.782rem + 0.39vw, 1.125rem);
 }
 
 th,
 td {
-  font-size: clamp(0.813rem, 0.79rem + 0.11vw, 0.875rem);
+  font-size: clamp(0.875rem, 0.782rem + 0.39vw, 1.125rem);
 
 }
 

@@ -26,22 +26,6 @@ $(function () {
   });
 
 
-// ヘッダーロゴの動き
-  $('.header-js').hide();
-  // スクロールイベントの設定
-  $(window).scroll(function() {
-      // .contents-sectionの位置を取得
-      var infoSectionTop = $('.contents-section').offset().top;
-      // 現在のスクロール位置を取得
-      var scrollTop = $(window).scrollTop();
-
-      // スクロール位置が.contents-sectionに達したら
-      if (scrollTop >= infoSectionTop) {
-          // .header-jsをふわっと表示
-          $('.header-js').fadeIn(500);
-      }
-  });
-  
 
 
   $(".top-to-js").click(function () {
