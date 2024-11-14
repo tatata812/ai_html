@@ -1,0 +1,484 @@
+<!-- <?php
+  $des="宇部市にあるビバファームではハウス栽培により美味しいトマトを育てています。山口県産の安心安全で美味しいトマトといえばビバトマ！"
+  ; ?> -->
+<!DOCTYPE html>
+<html lang="ja" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="format-detection" content="email=no,telephone=no,address=no">
+  <meta name="description" content="<?php echo $des; ?>">
+  <meta name=”keywords” content=”トマト,美味しいトマト,山口県産,山口県.宇部,ハウス栽培,ビバトマ”>
+  <meta property="og:type" content="website">
+  <meta property="og:title"
+    content="<?php wp_title( '-', true, 'right' ); ?><?php bloginfo( 'name' ); ?> | <?php echo $des; ?>">
+  <meta property="og:description" content="<?php echo $des; ?>">
+  <meta property="og:site_name"
+    content="<?php wp_title( '-', true, 'right' ); ?><?php bloginfo( 'name' ); ?> | <?php echo $des; ?>">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/fb.jpg">
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title"
+    content="<?php wp_title( '-', true, 'right' ); ?><?php bloginfo( 'name' ); ?> | <?php echo $des; ?>">
+  <meta name="twitter:description" content="<?php echo $des; ?>">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+  <link rel="stylesheet" href="assets/css/html5reset-1.6.1.css">
+  <link rel="stylesheet" href="assets/css/style.css?20230220">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+</head>
+
+<body class="wrap">
+
+  <header class="header wrap-header">
+
+    <!-- トップページ -->
+    <div class="header__logo-wrap header-js">
+      <a href="#" class="header__logo">
+        <img src="assets/img/header-logo.png" alt="">
+      </a>
+      <div class="header__open-btn">
+        <span></span><span></span><span></span>
+        <p class="header__open-btn-text">MENU</p>
+      </div>
+    </div>
+    <!-- トップページ -->
+
+    <!-- 下層 -->
+    <!-- <div class="header__wrap">
+          <h1 class="header__ttl">取扱店舗</h1>
+          <div class="header__logo-wrap">
+            <a href="index.html" class="header__logo">
+              <img src="assets/img/header-logo.png" alt="">
+            </a>
+            <div class="header__open-btn">
+              <span></span><span></span><span></span>
+              <p class="header__open-btn-text">MENU</p>
+            </div>
+          </div>
+        </div> -->
+    <!-- 下層 -->
+
+    <div class="main-menu">
+      <div class="main-menu__inner">
+        <nav>
+          <ul class="main-menu__nav-list">
+            <li class="main-menu__nav-item"><a href="index.html" class="main-menu__nav-link">ホーム</a>
+              <ul class="main-menu__nav-list main-menu__nav-list--child">
+                <li class="main-menu__nav-item main-menu__nav-item--child"><a href="index.html#info-section"
+                    class="main-menu__nav-link">》&emsp;新着情報</a></li>
+                <li class="main-menu__nav-item main-menu__nav-item--child"><a href="index.html#feature-section"
+                    class="main-menu__nav-link">》&emsp;ビバトマの特徴</a></li>
+                <li class="main-menu__nav-item main-menu__nav-item--child"><a href="index.html#environment-section"
+                    class="main-menu__nav-link">》&emsp;太陽光利用型植物ICTで<br>
+                    &emsp;&emsp;トマトにとって最適な環境を</a></li>
+                <li class="main-menu__nav-item main-menu__nav-item--child"><a href="index.html#cultivation-section"
+                    class="main-menu__nav-link">》&emsp;酵素の働きをフル活用<br>
+                    &emsp;&emsp;旨味を実現する土耕栽培</a></li>
+                <li class="main-menu__nav-item main-menu__nav-item--child"><a href="index.html#origin-section"
+                    class="main-menu__nav-link">》
+                    ビバトマの由来</a></li>
+                <li class="main-menu__nav-item main-menu__nav-item--child"><a href="index.html#about-section"
+                    class="main-menu__nav-link">》
+                    ビバ!ファームについて</a></li>
+                <li class="main-menu__nav-item main-menu__nav-item--child"><a href="store.html"
+                    class="main-menu__nav-link">》
+                    取扱店舗</a></li>
+              </ul>
+            </li>
+            <li class="main-menu__nav-item"><a href="index.html#access-section" class="main-menu__nav-link">アクセス</a>
+            </li>
+            <li class="main-menu__nav-item"><a href="contact.html" class="main-menu__nav-link">お問い合わせ</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+
+  <!-- トップページ・information以外は表示させる -->
+  <!-- <div class="breadcrumb-wrap">
+    ホーム ＞ ○○○○
+  </div> -->
+
+  <div class="main page-top">
+
+    <section class="main-visual">
+      <div class="main-visual__content">
+        <div class="main-visual__top">
+          <img src="assets/img/main-visual-top.png" alt="大地が育む真っ赤なごちそう">
+        </div>
+        <h1 class="main-visual__logo">
+          <img src="assets/img/main-visual-logo.png" alt="ビバトマ">
+        </h1>
+        <div class="main-visual__bottom">
+          <img src="assets/img/main-visual-bottom.png" alt="本来の旨味を大切に健康に育てたトマトをお届けします">
+        </div>
+      </div>
+    </section>
+
+    <section class="contents-section">
+      <div class="contents-section__img">
+        <img src="assets/img/contents-top-img.png">
+      </div>
+      <h2 class="contents-section__ttl">
+        <img src="assets/img/contents-ttl.png" alt="コンテンツ">
+      </h2>
+      <div class="contents-section__item-wrap">
+        <a href="#feature-section" class="contents-section__item">
+          <img src="assets/img/contents-item01.png" alt="ビバトマの特徴">
+        </a>
+        <a href="#environment-section" class="contents-section__item">
+          <img src="assets/img/contents-item02.png" alt="太陽光利用型植物ICTでトマトにとって最適な環境を">
+        </a>
+        <a href="#cultivation-section" class="contents-section__item">
+          <img src="assets/img/contents-item03.png" alt="酵素の働きをフル活用旨味を実現する土耕栽培">
+        </a>
+        <a href="#origin-section" class="contents-section__item">
+          <img src="assets/img/contents-item04.png" alt="ビバトマの由来">
+        </a>
+        <a href="#about-section" class="contents-section__item">
+          <img src="assets/img/contents-item05.png" alt="ビバ ! ファームについて">
+        </a>
+        <a href="#store-section" class="contents-section__item">
+          <img src="assets/img/contents-item06.png" alt="取扱店舗">
+        </a>
+      </div>
+    </section>
+
+    <section class="info-section" id="info-section">
+      <div class="info-section__inner">
+        <div class="info-section__top-img"><img src="assets/img/tomato-logo.png"></div>
+        <h2 class="info-section__ttl">
+          新着情報
+          <div class="info-section__ttl-img"><img src="assets/img/info-ttl-img.png"></div>
+        </h2>
+        <div class="info-section__contetnt info-list">
+          <article class="info-list__article">
+            <data class="info-list__date">2024.12.12</data>
+            <span class="info-list__cat">カテゴリ</span>
+            <a href="single.html" class="info-list__article-ttl">ここにお知らせが入りますここにお知らせが入り</a>
+          </article>
+          <article class="info-list__article">
+            <data class="info-list__date">2024.12.1</data>
+            <span class="info-list__cat info-list__cat--1">カテゴリ</span>
+            <a href="single.html" class="info-list__article-ttl">ここにお知らせが入りますここにお知らせが入りますここにお知らせが入り</a>
+          </article>
+          <article class="info-list__article">
+            <data class="info-list__date">2024.12.12</data>
+            <span class="info-list__cat info-list__cat--2">カテゴリ</span>
+            <a href="single.html" class="info-list__article-ttl">ここにお知らせが入りますここにお知らせが入りますここにお知らせが入り</a>
+          </article>
+        </div>
+        <a href="information.html" class="info-section__btn"><img src="assets/img/info-btn.png" alt="お知らせ一覧はこちら"></a>
+      </div>
+    </section>
+
+    <section class="feature-section" id="feature-section">
+      <h2 class="top-ttl-img"><img src="assets/img/feature-ttl.png" alt="ビバ ! ファームの「ビバトマ」3つの特長"></h2>
+      <div class="feature-section__item">
+        <h3 class="feature-section__item-ttl"><img src="assets/img/feature-item-ttl01.png" alt="特徴1 赤く熟した果実を収穫するから味が濃厚">
+        </h3>
+        <div class="feature-section__item-flex">
+          <div class="feature-section__item-left">
+            <img src="assets/img/feature-item-img01.png" alt="">
+          </div>
+          <div class="feature-section__item-right">
+            青い状態で収穫せず、赤くなるまで熟した後に収穫するため、水っぽさがなく、濃厚で口の中で爽やかさが残る「旨味」を感じるトマトです。<br>
+            また、「欧州グリーンディール」の核となる考え方で、生産から消費までのフードシステムを公正で健康的で環境に配慮したものにすることを目指した「farm to
+            fork(農場から食卓まで)」という考え方があります。「ビバ！ファーム」では、農場から車で約60分圏内のスーパーマーケットや直売所に私たちのトマトを出荷します。農場からできる限り近くの方に消費してもらうことで、配送コストやco2削減など環境にもやさしい農業を実現します。
+          </div>
+        </div>
+      </div>
+      <div class="feature-section__item">
+        <h3 class="feature-section__item-ttl  feature-section__item-ttl--second"><img
+            src="assets/img/feature-item-ttl02.png" alt="特徴2 予防農薬はせず健康で安心・安全"></h3>
+        <div class="feature-section__item-flex">
+          <div class="feature-section__item-left">
+            <img src="assets/img/feature-item-img02.png" alt="">
+          </div>
+          <div class="feature-section__item-right">
+            ビバ!ファームでは土壌中の微生物の力を使って、「トマト」の生命力を高める栽培方法をとっています。だから、「トマト」自体が病気になりにくい状態となります。人間でたとえると風邪を引かないように普段から健康な体を作っているようなイメージです。生命力を高めた栽培を行っているため、農薬はほとんど使わずに収穫をすることが可能となっています。
+          </div>
+        </div>
+      </div>
+      <div class="feature-section__item">
+        <h3 class="feature-section__item-ttl feature-section__item-ttl--third"><img
+            src="assets/img/feature-item-ttl03.png" alt="特徴3 リコピンもアミノ酸もぎっしり♪通常のトマトよりも高い?!"></h3>
+        <div class="feature-section__item-flex">
+          <div class="feature-section__item-left">
+            <img src="assets/img/feature-item-img03.png" alt="">
+          </div>
+          <div class="feature-section__item-right">
+            酵素の働きで土壌内の微生物が活性化し、栄養価がたっぷりのトマトが完成します。リコピン、亜鉛、マンガンなどの栄養素が通常のトマトよりも高く、適量を摂取することで健康維持に効果が期待できます。
+          </div>
+        </div>
+      </div>
+      <div class="feature-section__bottom-img">
+        <img src="assets/img/feature-bottom-img.png"
+          alt="昔食べたトマトの味、濃厚で甘味と酸味がしっかりあるね。ウチの子はトマトが嫌いだったけれど食べるようになった。毎日食べてほしいからこそ、本物の味をお届けします" class="pc-block">
+        <img src="assets/img/feature-bottom-img-sp.png"
+          alt="昔食べたトマトの味、濃厚で甘味と酸味がしっかりあるね。ウチの子はトマトが嫌いだったけれど食べるようになった。毎日食べてほしいからこそ、本物の味をお届けします" class="sp-block">
+      </div>
+    </section>
+
+    <section class="environment-section" id="environment-section">
+      <h2 class="top-ttl-img"><img src="assets/img/environment-ttl.png" alt="太陽光利用型植物ICTでトマトにとって最適な環境を"></h2>
+      <div class="environment-section__item">
+        <h3 class="environment-section__item-ttl"><img src="assets/img/environment-item-ttl.png" alt="新鮮で安全安心なトマトを">
+        </h3>
+        <div class="environment-section__item-flex">
+          <div class="environment-section__item-left">
+            <img src="assets/img/environment-item-img.png">
+          </div>
+          <div class="environment-section__item-right">
+            ビバ!ファームはICTを利用した栽培面積2,200m²の太陽光利用型植物工場です。<br>
+            環境制御ハウスだと水耕栽培が一般的ですが、ビバ ! ファームは「土耕」栽培で行います。
+            土耕栽培の理由は「酸味×甘味×旨味」をバランスよく感じられる、新鮮で安全安心なトマトを約9カ月間、提供し続けたいからです。
+          </div>
+        </div>
+      </div>
+      <div class="environment-section__bottom-img">
+        <img src="assets/img/environment-bottom-img.png"
+          alt="ICTとはInformation and Communication Technology の略で情報通信技術を意味します。" class="pc-block">
+        <img src="assets/img/environment-bottom-img-sp.png"
+          alt="ICTとはInformation and Communication Technology の略で情報通信技術を意味します。" class="sp-block">
+      </div>
+    </section>
+
+    <section class="cultivation-section" id="cultivation-section">
+      <h2 class="top-ttl-img"><img src="assets/img/cultivation-ttl.png" alt="酵素の働きをフル活用 旨味を実現する土耕栽培"></h2>
+      <div class="cultivation-section__item">
+        <h3 class="cultivation-section__item-ttl"><img src="assets/img/cultivation-item-ttl01.png"
+            alt="植物本来の力で農薬に頼らずに成長">
+        </h3>
+        <div class="cultivation-section__item-flex">
+          <div class="cultivation-section__item-left">
+            <img src="assets/img/cultivation-item-img01.png">
+          </div>
+          <div class="cultivation-section__item-right">
+            細菌や微生物と共生しながら、植物本来の力を引き出し、病害虫に強い植物を育てることを大切にしています。土中の微生物や細菌には酵素をつくる機能があり、この微生物から作り出される酵素には、水や肥料を吸いやすい環境をつくって根を働きやすくする作用があり、植物の育成を支えます。<br>
+            そして健康な植物は害虫を寄せ付けにくくし、農薬に頼らないたくさんの実をつける立派な植物に成長していくのです。
+          </div>
+        </div>
+      </div>
+      <div class="cultivation-section__item">
+        <h3 class="cultivation-section__item-ttl cultivation-section__item-ttl--second"><img
+            src="assets/img/cultivation-item-ttl02.png" alt="ヒトのお腹と同じ?!土壌の中の微生物を大事にするから健康なトマトが育つ">
+        </h3>
+        <div class="cultivation-section__item-flex">
+          <div class="cultivation-section__item-left">
+            <img src="assets/img/cultivation-item-img02.png">
+          </div>
+          <div class="cultivation-section__item-right">
+            私たちの腸内にも微生物が存在しています。その微生物が食べたものを分解し、栄養として体内に取り込んでいます。 植物も同じ仕組みです。植物は"お腹の中"である土壌に根を張ります。<br>
+            お腹の調子が悪いと、体調がすぐれないのと同じように、トマトも土の中の環境が悪いと、おいしいものがつくれないのです。
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="origin-section" id="origin-section">
+      <h2 class="top-ttl-img"><img src="assets/img/origin-ttl.png" alt="ビバトマの由来"></h2>
+      <div class="origin-section__flex">
+        <div class="origin-section__left">
+          <img src="assets/img/origin-img.png" alt="">
+        </div>
+        <div class="origin-section__right">
+          <p class="origin-section__text">「ビバ !
+            ファーム」の母体である「オータニグループ」は、建設業と不動産業を通じて、お客様に安心で快適な暮らしを提供することを目指しています。その理念を表すシンボルとして、家づくりが得意な動物であるビーバーをイメージキャラクターに選びました。地域にお住いの皆様も、オータニグループの「ビバオくん」や「ビバ子ちゃん」を街中の看板などで目にしたことがあるのではないでしょうか。
+          </p>
+          <p class="origin-section__text">
+            ビーバーは、自然の中で木を巧みに使って巣やダムを作り、家族が安心して暮らせる環境を自らの手で整える動物です。しっかりと計画し、何度も丁寧に作業を重ねる姿は、私たちが大切にしている「確実で丁寧な家づくり」の姿勢そのものです。さらに、ビーバーは忍耐強く、困難にも負けず、コツコツと目標を達成する粘り強さを持っているそうです。この性格も、私たちが日々の仕事で大切にしている「お客様の信頼に応える責任感」と一致していると思っています。
+          </p>
+          <p class="origin-section__text">
+            「ビバ！ファーム」の「ビバトマ」も、ビーバーのように、確かな技術と誠実さをもって、お客様にとって安心安全で「毎日食べたい！」と思ってもらえるトマトづくりをしたいという想いを込めて名付けました。</p>
+        </div>
+      </div>
+      <div class="origin-section__bottom-img">
+        <img src="assets/img/origin-bottom-img.png">
+      </div>
+    </section>
+
+    <img src="assets/img/section-line.png">
+
+    <section class="about-section" id="about-section">
+      <h2 class="top-ttl-img"><img src="assets/img/about-ttl.png" alt="ビバ ! ファームについて"></h2>
+      <div class="about-section__logo">
+        <img src="assets/img/about-logo.png" alt="">
+      </div>
+      <div class="about-section__concept">
+        <img src="assets/img/about-concept.png" alt="">
+      </div>
+      <div class="about-section__concept-content">
+        <div class="about-section__concept-text">
+          <img src="assets/img/about-concept-text.png" alt="">
+        </div>
+      </div>
+      <p class="about-section__lead">私たち「ビバ ! ファーム」の母体である、「オータニグループ」は創業から95年<br class="pc-block">
+        宇部と共に「人と人とのご縁」 を大切に歩んでまいりました。<br>
+        地域の皆様に支えられて、今があります。<br>
+        これから100年先も地元の皆様に必要とされる企業を目指すため<br class="pc-block">
+        生活必需品である「食=農業」に広げ、農業参入を決意しました。</p>
+      <div class="about-section__flex">
+        <div class="about-section__left">
+          <img src="assets/img/about-message-img.png" alt="代表取締役  大谷英治">
+        </div>
+        <div class="about-section__right">
+          <div class="about-section__messsage-ttl">
+            <img src="assets/img/about-message-ttl.png" alt="メッセージ">
+          </div>
+          <p class="about-section__messsage-text">株式会社オータニは、1930年(昭和5年)大谷組 として創業以来、宇部市で「人と人とのご縁」を大切に、様々な事業に取り組んできました。
+            1930年大谷組として創業、1960年有限会社大谷建設工業所、1967年に大谷建設株式会社へと法人組織化を進め、2011年大谷建設株式会社と大谷地所株式会社を合併し、株式会社オータニとなりました。</p>
+          <p class="about-section__messsage-text">
+            弊社は創業以来、宇部に根差し、地元のたくさんの方に支えられて事業を進めてきました。弊社はこれからも宇部市と共に進んでまいります。そのために、この度、宇部市で農業参入することを決意いたしました。</p>
+        </div>
+      </div>
+      <p class="about-section__messsage-bottom-text">農業事業が一筋縄ではないことを理解し、コツコツと長期的な視点で腰を据えて取り組んでまいります。
+        宇部市の農業者様と協調・協力し、また企業が取り組む利点を生かしながら宇部の農業に微力ながら 貢献したいと考えております。
+      </p>
+      <p class="about-section__messsage-bottom-text about-section__messsage-bottom-text--right">代表取締役 <span>大谷英治</span>
+      </p>
+      <a href="https://www.otani-group.jp/" class="about-section__btn" target="_blank" rel="noopener"><img
+          src="assets/img/about-btn.png" alt="オータニグループホームページ"></a>
+    </section>
+
+    <hr>
+
+    <section class="insta-section" id="insta-section">
+      <h2 class="insta-section__ttl"><img src="assets/img/insta-ttl.png" alt="Instagram"></h2>
+      <div class="insta-section__content">
+      </div>
+    </section>
+
+    <img src="assets/img/section-line02.png">
+
+    <section class="store-section" id="store-section">
+      <h2 class="top-ttl-img"><img src="assets/img/store-ttl.png" alt="取扱店舗"></h2>
+      <p class="store-section__lead">ビバトマは山口県内の農作物直売所やスーパーマーケットの直産コーナーなどで販売しております。<br
+          class="sp-block">自然の力で育む甘酸っぱい絶品トマトをぜひお買い求めください。</p>
+      <div class="store-list store-section__store-list">
+        <article class="store-list__item">
+
+          <h3 class="store-list__name">店舗の名前</h3>
+          <div class="store-list__img">
+            <img src="assets/img/store01.jpg" alt="">
+          </div>
+          <div class="store-list__map-wrap">
+            <div class="store-list__map">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7921.530425231635!2d131.22673676331928!3d34.00316337641817!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x354381b3dd31e303%3A0x3232db4bfff1e49e!2z44CSNzU5LTAxMjQg5bGx5Y-j55yM5a6H6YOo5biC5bqD54Cs!5e0!3m2!1sja!2sjp!4v1730214233434!5m2!1sja!2sjp"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+          <p class="store-list__adress">
+            〒755-0000<br>
+            山口県宇部市〇〇〇〇〇〇〇 0丁目00番00号
+          </p>
+          <p class="store-list__tel">TEL.<a href="tel:0836-00-0000">0836-00-0000</a></p>
+        </article>
+        <article class="store-list__item">
+          <h3 class="store-list__name">店舗の名前</h3>
+          <div class="store-list__img">
+            <img src="assets/img/store02.jpg" alt="">
+          </div>
+          <div class="store-list__map-wrap">
+            <div class="store-list__map">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7921.530425231635!2d131.22673676331928!3d34.00316337641817!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x354381b3dd31e303%3A0x3232db4bfff1e49e!2z44CSNzU5LTAxMjQg5bGx5Y-j55yM5a6H6YOo5biC5bqD54Cs!5e0!3m2!1sja!2sjp!4v1730214233434!5m2!1sja!2sjp"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+          <p class="store-list__adress">
+            〒755-0000<br>
+            山口県宇部市〇〇〇〇〇〇〇 0丁目00番00号
+          </p>
+          <p class="store-list__tel">TEL.<a href="tel:0836-00-0000">0836-00-0000</a></p>
+        </article>
+      </div>
+      <a href="store.html" class="store-section__btn" target="_blank" rel="noopener"><img src="assets/img/store-btn.png"
+          alt="取り扱い店舗一覧はこちら"></a>
+    </section>
+
+    <img src="assets/img/section-line.png">
+
+    <section class="access-section" id="access-section">
+      <h2 class="top-ttl-img"><img src="assets/img/access-ttl.png" alt="アクセス"></h2>
+      <div class="access-section__flex">
+        <p class="access-section__left">ビバ ! ファーム</p>
+        <p class="access-section__right">住所<br>
+          〒759-0124<br>
+          山口県宇部市厚東広瀬</p>
+      </div>
+      <div class="access-section__map-wrap">
+        <div class="access-section__map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7921.530425231635!2d131.22673676331928!3d34.00316337641817!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x354381b3dd31e303%3A0x3232db4bfff1e49e!2z44CSNzU5LTAxMjQg5bGx5Y-j55yM5a6H6YOo5biC5bqD54Cs!5e0!3m2!1sja!2sjp!4v1730214233434!5m2!1sja!2sjp"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </section>
+
+  </div>
+  <!--main end-->
+
+  <footer class="footer">
+    <div class="footer__logo-wrap">
+      <a href="" class="footer__logo-left"><img src="assets/img/footer-logo.png" alt=""></a>
+      <a href="" class="footer__logo-right"><img src="assets/img/footer-viva-logo.png" alt=""></a>
+    </div>
+    <div class="footer__address-wrap">
+      <div class="footer__address-left">
+        <p class="footer__address-ttl">株式会社オータニ</p>
+        <table class="footer__address-table">
+          <tr>
+            <th>住所</th>
+            <td>〒755-0054</td>
+          </tr>
+          <tr>
+            <th></th>
+            <td>山口県宇部市助田町7-13</td>
+          </tr>
+          <tr>
+            <th>TEL</th>
+            <td><a href="tel:0836-33-7878">0836-33-7878</a></td>
+          </tr>
+          <tr>
+            <th>FAX</th>
+            <td>0836-33-1056</td>
+          </tr>
+        </table>
+      </div>
+      <div class="footer__address-right">
+        <p class="footer__address-ttl">ビバ ! ファーム</p>
+        <table class="footer__address-table">
+          <tr>
+            <th>住所</th>
+            <td>〒759-0124</td>
+          </tr>
+          <tr>
+            <th></th>
+            <td>山口県宇部市厚東広瀬</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="footer__menu-wrap">
+      <p class="footer__menu-item footer__menu-item--copy">©ビバ ! ファーム All Right Reserved.</p>
+      <a href="sitemap.html" class="footer__menu-item">サイトマップ</a>
+      <a href="usersguide.html" class="footer__menu-item">利用規約</a> <a href="privacy.html"
+        class="footer__menu-item">個人情報保護方針</a>
+    </div>
+    <a href="#" class="footer__go-top"><img src="assets/img/go-top.png" alt="TOPへ"></a>
+  </footer>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
