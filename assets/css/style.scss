@@ -855,6 +855,154 @@ AIブログマーケティングとは？
  ================================= */
 
 .voice-section {
+  padding: 80px 12px 0;
+
+  @include tab {
+    padding: 40px 12px;
+
+  }
+
+  &__ttl {
+    max-width: 640px;
+    margin: 0 auto 80px;
+    border-top: #53c2ef 2px solid;
+    border-bottom: #53c2ef 2px solid;
+    padding: 12px;
+    color: #53c2ef;
+    font-size: 60px;
+    text-align: center;
+    position: relative;
+
+    @include tab {
+      font-size: 32px;
+      padding: 10px;
+      max-width: 90%;
+
+    }
+
+    &::before {
+      content: url(../img/voice-section-ttl01.png);
+      position: absolute;
+      top: -56px;
+      left: -167px;  
+      transform: scale(0.5);
+
+      @include pc{
+        left: -96px;
+        transform: scale(0.4);
+      }
+
+      @include tab{
+        left: -116px;
+        top: -70px;
+        transform: scale(0.3);
+      }
+    }
+
+    &::after {
+      content: url(../img/voice-section-ttl02.png);
+      position: absolute;
+      top: -121px;
+      right: -234px;
+      transform: scale(0.5);
+
+      @include pc{
+        top: -167px;
+        right: -158px;
+        transform: scale(0.3);
+      }
+
+      @include tab{
+        transform: scale(0.2);
+        top: -171px;
+        right: -182px;
+      }
+    }
+
+  }
+
+  &__item {
+    max-width: 640px ;
+    margin: 0 auto;
+  }
+
+  &__item-name {
+
+    @include tab{
+    max-width: 90%;
+    margin: 0 auto;
+    }
+  }
+
+
+  &__item-name-flex {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin: -20px 0 60px 53px;
+
+    @include tab{
+      margin: 8px 0 24px 0;
+      gap: 12px;
+
+    }
+  }
+
+
+
+  &__item-date {
+    width: 70px;
+    padding: 3px 0 0;
+
+    @include tab{
+    width: 50px;
+    padding: 5px 0 0;
+
+    }
+  }
+
+  &__item-name-text {
+    color: #53c2ef;
+    font-size: 20px;
+    line-height: 1.5;
+
+    @include tab{
+    font-size: 16px;
+    }
+  }
+
+  &__text-wrap {
+    max-width: 540px;
+    margin: 0 auto;
+  }
+
+  &__item-ttl {
+    font-size: 24px;
+    text-align: center;
+    line-height: 1.5;
+    margin: 0 0 24px;
+
+    @include tab{
+      font-size: 18px;
+
+    }
+    
+
+    span {
+      color: #53c2ef;
+      display: block;
+      font-size: 16px;
+      text-align: left;
+      margin: 0 0 0 43px;
+
+      @include tab{
+        margin: 0 0 0 0;
+
+      }
+
+    }
+  }
+
 
   &__ {}
 
@@ -876,21 +1024,70 @@ AIブログマーケティングとは？
 
   &__ {}
 
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
+}
 
 
+// 隠れるテキスト
+.accordion {
+  position: relative;
+  margin: 0 0 80px;
+}
+/* ボタン */
+.accordion-btn {
+  background-color: #53c2ef;
+  border: 1px solid #53c2ef;
+  bottom: 0;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  left: 0;
+  margin: auto;
+  padding: 5px 15px;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  transition: all .2s;
+  width: fit-content;
+  z-index: 1;
+}
+/* 続きを読むボタンの表記 */
+.accordion-btn::after {
+  content: "続きを読む";
+}
+/* ボタンhover時のスタイル */
+.accordion-btn:hover {
+  background-color: #fff;
+  color: #53c2ef;
+}
+.accordion-text {
+  overflow: hidden; /* テキストを隠す */
+  position: relative;
+}
+/* 最初に見えてるテキストエリアの高さ */
+.accordion-text.is-hide {
+  height: 100px;
+}
+/* テキストをグラデーションで隠す */
+.accordion-text::before {
+  background-image: linear-gradient(177deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.52) 50%, rgba(255, 255, 255, 1));
+      bottom: 0;
+  content: "";
+  height: 60px; /* グラデーションで隠す高さ */
+  position: absolute;
+  width: 100%;
+}
+/* 閉じるボタンの位置 */
+.accordion-btn.is-show {
+  bottom: -3em;
+}
+/* 閉じるボタンの表記 */
+.accordion-btn.is-show::after {
+  content: "閉じる";
+}
+/* 続きを見るボタンをクリックしたらテキストを隠しているグラデーションを消す */
+.accordion-btn.is-show + .accordion-text::before {
+  display: none;
 }
 
 /* =================================
