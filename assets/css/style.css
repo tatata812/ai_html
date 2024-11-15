@@ -1365,6 +1365,11 @@ AIブログマーケティングとは？
 .plan-section__words span {
   color: #f0ea30;
 }
+@media (max-width: 600px) {
+  .plan-section__words {
+    font-size: 12px;
+  }
+}
 .plan-section__item03-text-wrap {
   margin: 40px 0 0;
   border-top: #53c2ef 1px solid;
@@ -1405,6 +1410,253 @@ AIブログマーケティングとは？
 /* =================================
 オプション料金
  ================================= */
+.option-section {
+  padding: 80px 12px;
+  background-color: #1a1a1a;
+}
+@media (max-width: 820px) {
+  .option-section {
+    padding: 40px 24px 12px;
+  }
+}
+.option-section__ttl {
+  color: #fff;
+  text-align: center;
+  font-size: 44px;
+  margin: 0 0 80px;
+}
+@media (max-width: 820px) {
+  .option-section__ttl {
+    font-size: 32px;
+    margin: 0 0 40px;
+  }
+}
+.option-section__item {
+  max-width: 580px;
+  margin: 0 auto 80px;
+}
+@media (max-width: 600px) {
+  .option-section__item {
+    margin: 0 auto 60px;
+  }
+}
+.option-section__lead {
+  color: #fff;
+  text-align: right;
+  font-size: 22px;
+  margin: 0 0 16px;
+  white-space: nowrap;
+}
+@media (max-width: 820px) {
+  .option-section__lead {
+    font-size: 18px;
+    text-align: center;
+    margin: 0 0 8px;
+  }
+}
+@media (max-width: 600px) {
+  .option-section__lead {
+    font-size: 13px;
+  }
+}
+.option-section__lead--even {
+  text-align: left;
+}
+@media (max-width: 820px) {
+  .option-section__lead--even {
+    text-align: center;
+  }
+}
+.option-section__lead--item04 {
+  text-align: left;
+  margin: 0 0 0 130px;
+  font-size: 32px;
+}
+@media (max-width: 820px) {
+  .option-section__lead--item04 {
+    margin: 0 0 0 130px;
+    font-size: 22px;
+  }
+}
+@media (max-width: 600px) {
+  .option-section__lead--item04 {
+    font-size: 18px;
+    text-align: center;
+    margin: 0 0 4px;
+  }
+}
+.option-section__box {
+  border: #53c2ef 1px solid;
+  position: relative;
+  padding: 40px 60px;
+}
+@media (max-width: 820px) {
+  .option-section__box {
+    padding: 24px;
+  }
+}
+@media (max-width: 600px) {
+  .option-section__box {
+    padding: 18px;
+  }
+}
+.option-section__item-num {
+  position: absolute;
+  max-width: 150px;
+  top: -52px;
+  left: -2px;
+}
+@media (max-width: 820px) {
+  .option-section__item-num {
+    max-width: 120px;
+    top: -1px;
+  }
+}
+@media (max-width: 600px) {
+  .option-section__item-num {
+    max-width: 60px;
+  }
+}
+.option-section__item-num--even {
+  left: auto;
+  right: -1px;
+}
+.option-section__item-ttl {
+  color: #fff;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+}
+@media (max-width: 600px) {
+  .option-section__item-ttl {
+    font-size: 16px;
+  }
+}
+.option-section__item-ttl span {
+  color: #53c2ef;
+  font-size: 60px;
+  font-family: "Bodoni 72 Oldstyle", "Times New Roman", "Bodoni 72", serif;
+  font-weight: bold;
+  vertical-align: middle;
+  margin: 0 12px 0 0;
+}
+@media (max-width: 600px) {
+  .option-section__item-ttl span {
+    font-size: 44px;
+  }
+}
+.option-section__item-ttl--block span {
+  display: block;
+}
+.option-section__place {
+  color: #fff;
+  font-weight: bold;
+  font-size: 60px;
+  text-align: center;
+  letter-spacing: 0.2rem;
+  white-space: nowrap;
+  line-height: 1.6;
+  margin: 0 0 12px;
+}
+.option-section__place--item04 {
+  margin: 0 auto 40px;
+  width: 300px;
+  position: relative;
+}
+@media (max-width: 600px) {
+  .option-section__place {
+    font-size: 38px;
+  }
+}
+.option-section__place-span-left {
+  font-size: 24px;
+  writing-mode: vertical-rl;
+  color: #53c2ef;
+  letter-spacing: 0rem;
+  transform: translateY(6px);
+}
+@media (max-width: 600px) {
+  .option-section__place-span-left {
+    font-size: 16px;
+  }
+}
+.option-section__place-span-right {
+  font-size: 24px;
+  color: #53c2ef;
+  letter-spacing: 0rem;
+}
+@media (max-width: 600px) {
+  .option-section__place-span-right {
+    font-size: 16px;
+  }
+}
+.option-section__place-span-center {
+  font-size: 32px;
+  letter-spacing: 0rem;
+}
+.option-section__words {
+  color: #fff;
+  font-size: 14px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+.option-section__words span {
+  color: #53c2ef;
+  display: block;
+}
+@media (max-width: 600px) {
+  .option-section__words {
+    font-size: 12px;
+  }
+}
+.option-section__item03-text-wrap {
+  margin: 40px 0 0;
+  border-top: #53c2ef 1px solid;
+  border-bottom: #53c2ef 1px solid;
+  padding: 12px 24px;
+}
+@media (max-width: 600px) {
+  .option-section__item03-text-wrap {
+    padding: 12px;
+    margin: 24px 0 0;
+  }
+}
+.option-section__item03-text-top {
+  color: #53c2ef;
+  text-align: center;
+}
+.option-section__item03-span01 {
+  color: #fff;
+  font-size: 24px;
+}
+.option-section__item03-span02 {
+  font-size: 14px;
+}
+.option-section__item03-text-bottom {
+  color: #fff;
+  font-size: 14px;
+}
+.option-section__place-item04-img {
+  position: absolute;
+  width: 300px;
+  bottom: -22px;
+  left: 4px;
+}
+@media (max-width: 820px) {
+  .option-section__place-item04-img {
+    width: 260px;
+    bottom: -27px;
+  }
+}
+@media (max-width: 600px) {
+  .option-section__place-item04-img {
+    width: 240px;
+    bottom: -18px;
+    left: 19px;
+  }
+}
 /* =================================
 製品仕様一覧
  ================================= */
