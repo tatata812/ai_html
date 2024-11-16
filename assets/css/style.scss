@@ -1886,50 +1886,62 @@ AIブログマーケティングとは？
   &__td-ttl {
     position: relative;
 
-    &:before {
-      content: url(../img/spec-section-td-ttl01.png);
-      position: absolute;
-      top: -6px;
-      left: -130px;
-      transform: scale(0.9);
+    // &:before {
+    //   content: url(../img/spec-section-td-ttl01.png);
+    //   position: absolute;
+    //   top: -6px;
+    //   left: -130px;
+    //   transform: scale(0.9);
 
 
-      @include tab {
-        transform: scale(0.8);
-        top: -13px;
-      }
-    }
+    //   @include tab {
+    //     transform: scale(0.8);
+    //     top: -13px;
+    //   }
+    // }
 
-    &--00 {
-      &:before {
-        visibility: hidden;
-      }
-    }
+    // &--00 {
+    //   &:before {
+    //     visibility: hidden;
+    //   }
+    // }
 
-    &--02 {
-      &:before {
-        content: url(../img/spec-section-td-ttl02.png);
-      }
-    }
+    // &--02 {
+    //   &:before {
+    //     content: url(../img/spec-section-td-ttl02.png);
+    //   }
+    // }
 
-    &--03 {
-      &:before {
-        content: url(../img/spec-section-td-ttl03.png);
-      }
-    }
+    // &--03 {
+    //   &:before {
+    //     content: url(../img/spec-section-td-ttl03.png);
+    //   }
+    // }
 
-    &--04 {
-      &:before {
-        content: url(../img/spec-section-td-ttl04.png);
-      }
-    }
+    // &--04 {
+    //   &:before {
+    //     content: url(../img/spec-section-td-ttl04.png);
+    //   }
+    // }
 
 
   }
 
 
 
-  &__ {}
+  &__td-img {
+    position: absolute;
+    top: -6px;
+    left: -130px;
+    transform: scale(0.9);
+
+    @include tab {
+      transform: scale(0.8);
+      top: -13px;
+    }
+
+
+  }
 
   &__ {}
 

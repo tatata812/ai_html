@@ -1772,30 +1772,17 @@ AIブログマーケティングとは？
 .spec-section__td-ttl {
   position: relative;
 }
-.spec-section__td-ttl:before {
-  content: url(../img/spec-section-td-ttl01.png);
+.spec-section__td-img {
   position: absolute;
   top: -6px;
   left: -130px;
   transform: scale(0.9);
 }
 @media (max-width: 820px) {
-  .spec-section__td-ttl:before {
+  .spec-section__td-img {
     transform: scale(0.8);
     top: -13px;
   }
-}
-.spec-section__td-ttl--00:before {
-  visibility: hidden;
-}
-.spec-section__td-ttl--02:before {
-  content: url(../img/spec-section-td-ttl02.png);
-}
-.spec-section__td-ttl--03:before {
-  content: url(../img/spec-section-td-ttl03.png);
-}
-.spec-section__td-ttl--04:before {
-  content: url(../img/spec-section-td-ttl04.png);
 }
 /* =================================
 よくあるお問合せ
