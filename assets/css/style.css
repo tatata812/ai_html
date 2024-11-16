@@ -1665,7 +1665,7 @@ AIブログマーケティングとは？
 }
 @media (max-width: 820px) {
   .spec-section {
-    padding: 40px 24px 12px;
+    padding: 40px 12px 12px;
   }
 }
 .spec-section__ttl {
@@ -1683,6 +1683,13 @@ AIブログマーケティングとは？
   transform: scale(0.6);
 }
 @media (max-width: 820px) {
+  .spec-section__ttl:before {
+    top: -83px;
+    right: -52px;
+    transform: scale(0.3);
+  }
+}
+@media (max-width: 820px) {
   .spec-section__ttl {
     font-size: 32px;
     margin: 0 0 40px;
@@ -1698,7 +1705,13 @@ AIブログマーケティングとは？
 .spec-section__table {
   width: 1600px;
   border-collapse: collapse;
-  margin: 0 0 0 150px;
+  margin: 0 0 0 123px;
+}
+@media (max-width: 820px) {
+  .spec-section__table {
+    width: 1200px;
+    margin: 0 0 0 116px;
+  }
 }
 .spec-section__table th,
 .spec-section__table td {
@@ -1709,11 +1722,24 @@ AIブログマーケティングとは？
   height: 100px;
   vertical-align: middle;
 }
+@media (max-width: 820px) {
+  .spec-section__table th,
+  .spec-section__table td {
+    width: 160px;
+    height: 80px;
+    padding: 2px;
+  }
+}
 .spec-section__table th {
   background-color: #e2ece8;
   border: 4px solid #fff;
   font-weight: normal;
   font-size: 15px;
+}
+@media (max-width: 820px) {
+  .spec-section__table th {
+    font-size: 14px;
+  }
 }
 .spec-section__table td {
   border-left: none;
@@ -1734,6 +1760,12 @@ AIブログマーケティングとは？
 .spec-section__table td.spec-section__td-text {
   font-size: 18px;
 }
+@media (max-width: 820px) {
+  .spec-section__table td.spec-section__td-text {
+    font-size: 14px;
+    line-height: 1.2;
+  }
+}
 .spec-section__table td.spec-section__td-red {
   color: #e00000;
 }
@@ -1746,6 +1778,12 @@ AIブログマーケティングとは？
   top: -6px;
   left: -130px;
   transform: scale(0.9);
+}
+@media (max-width: 820px) {
+  .spec-section__td-ttl:before {
+    transform: scale(0.8);
+    top: -13px;
+  }
 }
 .spec-section__td-ttl--00:before {
   visibility: hidden;

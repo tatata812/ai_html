@@ -1761,7 +1761,7 @@ AIブログマーケティングとは？
   padding: 80px 12px;
 
   @include tab {
-    padding: 40px 24px 12px;
+    padding: 40px 12px 12px;
   }
 
   &__ttl {
@@ -1777,6 +1777,14 @@ AIブログマーケティングとは？
       top: -70px;
       right: -143px;
       transform: scale(0.6);
+
+
+      @include tab{
+        top: -83px;
+        right: -52px;
+        transform: scale(0.3);
+  
+      }
     }
 
     @include tab {
@@ -1798,7 +1806,13 @@ AIブログマーケティングとは？
 
     width: 1600px;
     border-collapse: collapse;
-    margin: 0 0 0 150px;
+    margin: 0 0 0 123px;
+
+    @include tab{
+      width: 1200px;
+      margin: 0 0 0 116px;
+
+    }
 
 
     th,
@@ -1810,6 +1824,13 @@ AIブログマーケティングとは？
       height: 100px;
       vertical-align: middle;
 
+      @include tab{
+        width: 160px;
+        height: 80px;
+        padding: 2px;
+
+      }
+
     }
 
     th {
@@ -1817,6 +1838,11 @@ AIブログマーケティングとは？
       border: 4px solid #fff;
       font-weight: normal;
       font-size: 15px;
+
+      @include tab{
+        font-size: 14px;
+
+      }
     }
 
     td {
@@ -1840,6 +1866,12 @@ AIブログマーケティングとは？
 
       &.spec-section__td-text {
         font-size: 18px;
+
+        @include tab{
+          font-size: 14px;
+          line-height: 1.2;
+
+        }
       }
 
       &.spec-section__td-red {
@@ -1860,6 +1892,12 @@ AIブログマーケティングとは？
       top: -6px;
       left: -130px;
       transform: scale(0.9);
+
+
+      @include tab{
+        transform: scale(0.8);
+top: -13px;
+      }
     }
 
     &--00 {
