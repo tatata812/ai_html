@@ -1806,11 +1806,9 @@ AIブログマーケティングとは？
 
     width: 1600px;
     border-collapse: collapse;
-    margin: 0 0 0 123px;
 
     @include tab {
       width: 1200px;
-      margin: 0 0 0 116px;
 
     }
 
@@ -1932,12 +1930,13 @@ AIブログマーケティングとは？
   &__td-img {
     position: absolute;
     top: -6px;
-    left: -130px;
-    transform: scale(0.9);
+    left: 0;
+    padding: 0!important;
+    width: 260px!important;
 
     @include tab {
-      transform: scale(0.8);
-      top: -13px;
+      width: 220px!important;
+
     }
 
 

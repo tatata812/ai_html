@@ -1705,12 +1705,10 @@ AIブログマーケティングとは？
 .spec-section__table {
   width: 1600px;
   border-collapse: collapse;
-  margin: 0 0 0 123px;
 }
 @media (max-width: 820px) {
   .spec-section__table {
     width: 1200px;
-    margin: 0 0 0 116px;
   }
 }
 .spec-section__table th,
@@ -1775,13 +1773,13 @@ AIブログマーケティングとは？
 .spec-section__td-img {
   position: absolute;
   top: -6px;
-  left: -130px;
-  transform: scale(0.9);
+  left: 0;
+  padding: 0 !important;
+  width: 260px !important;
 }
 @media (max-width: 820px) {
   .spec-section__td-img {
-    transform: scale(0.8);
-    top: -13px;
+    width: 220px !important;
   }
 }
 /* =================================
