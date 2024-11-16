@@ -1322,6 +1322,7 @@ AIブログマーケティングとは？
   .option-section__item-num {
     max-width: 120px;
     top: -1px;
+    left: -1px;
   }
 }
 @media (max-width: 600px) {
@@ -1549,7 +1550,7 @@ AIブログマーケティングとは？
 }
 @media (max-width: 820px) {
   .spec-section__table th {
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 .spec-section__table td {
@@ -1795,11 +1796,13 @@ AIブログマーケティングとは？
   border: #898989 1px solid;
   width: 100%;
   padding: 8px;
+  font-size: 16px;
 }
 .contact-section__textarea {
   border: #898989 1px solid;
   width: 100%;
   padding: 8px;
+  font-size: 16px;
 }
 .contact-section__bottom-text {
   text-align: center;
