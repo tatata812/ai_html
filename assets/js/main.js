@@ -55,7 +55,7 @@ $(function () {
   // 隠れるテキスト
   const itemHeights = [];
   let returnHeight;
-  
+
   $(function () {
     $(".js-accordion-text").each(function () {
       // 隠す要素
@@ -65,7 +65,7 @@ $(function () {
       returnHeight = $(this).height(); // 見えてる高さを取得
     });
   });
-  
+
   $(".js-accordion-btn").click(function () {
     // ボタンをクリックしたら
     if (!$(this).hasClass("is-show")) {
@@ -74,12 +74,25 @@ $(function () {
       $(this)
         .addClass("is-show") // 閉じるボタンに表示変更
         .next()
-        .animate({ height: addHeight }, 300) // 隠されてる要素をアニメーションで表示
+        .animate({
+          height: addHeight
+        }, 300) // 隠されてる要素をアニメーションで表示
     } else {
       $(this)
         .removeClass("is-show") // 閉じるボタン表示解除
         .next()
-        .animate({ height: returnHeight }, 300) // 要素を初期の高さにアニメーションで戻す
+        .animate({
+          height: returnHeight
+        }, 300) // 要素を初期の高さにアニメーションで戻す
     }
+  });
+
+
+  // よくある質問
+  $(document).ready(function () {
+    $(".question").click(function () {
+      $(this).next(".answer").slideToggle();
+      $(this).toggleClass("active");
+    });
   });
 })

@@ -1779,11 +1779,11 @@ AIブログマーケティングとは？
       transform: scale(0.6);
 
 
-      @include tab{
+      @include tab {
         top: -83px;
         right: -52px;
         transform: scale(0.3);
-  
+
       }
     }
 
@@ -1808,7 +1808,7 @@ AIブログマーケティングとは？
     border-collapse: collapse;
     margin: 0 0 0 123px;
 
-    @include tab{
+    @include tab {
       width: 1200px;
       margin: 0 0 0 116px;
 
@@ -1824,7 +1824,7 @@ AIブログマーケティングとは？
       height: 100px;
       vertical-align: middle;
 
-      @include tab{
+      @include tab {
         width: 160px;
         height: 80px;
         padding: 2px;
@@ -1839,7 +1839,7 @@ AIブログマーケティングとは？
       font-weight: normal;
       font-size: 15px;
 
-      @include tab{
+      @include tab {
         font-size: 14px;
 
       }
@@ -1855,10 +1855,10 @@ AIブログマーケティングとは？
 
 
       span {
-      position: absolute;
-      top: 75%;
-      left: 50%;
-      transform: translate(-50%, -50%);
+        position: absolute;
+        top: 75%;
+        left: 50%;
+        transform: translate(-50%, -50%);
         font-size: 14px;
         white-space: nowrap;
         color: #1a1a1a;
@@ -1867,7 +1867,7 @@ AIブログマーケティングとは？
       &.spec-section__td-text {
         font-size: 18px;
 
-        @include tab{
+        @include tab {
           font-size: 14px;
           line-height: 1.2;
 
@@ -1894,9 +1894,9 @@ AIブログマーケティングとは？
       transform: scale(0.9);
 
 
-      @include tab{
+      @include tab {
         transform: scale(0.8);
-top: -13px;
+        top: -13px;
       }
     }
 
@@ -1964,13 +1964,26 @@ top: -13px;
 
 .faq-section {
 
-  &__ {}
+  padding: 20px 12px;
 
-  &__ {}
+  @include tab {
+    padding: 40px 12px 12px;
+  }
 
-  &__ {}
+  &__ttl {
+    text-align: center;
+    font-size: 44px;
+    margin: 0 auto 40px;
+    position: relative;
+    color: #53c2ef;
 
-  &__ {}
+
+
+    @include tab {
+      font-size: 32px;
+      margin: 0 0 24px;
+    }
+  }
 
   &__ {}
 
@@ -2000,6 +2013,109 @@ top: -13px;
 
 
 }
+
+
+/* FAQコンテンツ */
+.faq_list {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.faq_list .item {
+  margin-top: -1px;
+}
+
+.faq_list .question {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  line-height: 1.8;
+  padding: 23px 55px 19px 30px;
+  position: relative;
+  background: #fff;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+
+  @include tab{
+    padding: 12px 55px 12px 12px;
+
+  }
+}
+
+.faq_list .question:before {
+  content: '';
+  position: absolute;
+  right: 22px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: block;
+  width: 13px;
+  height: 1px;
+  background: #000;
+
+}
+
+.faq_list .question:after {
+  content: '';
+  position: absolute;
+  right: 28px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: block;
+  width: 1px;
+  height: 13px;
+  background: #000;
+  position: absolute;
+
+}
+
+.faq_list .question.active:after {
+  display: none;
+}
+
+.faq_list .answer {
+  border: 1px solid #ddd;
+  border-top: none;
+  padding: 48px 55px 50px;
+  background: #f7f7f7;
+
+  @include tab{
+    padding: 12px;
+
+  }
+}
+
+.faq_list .answer p {
+  line-height: 2.4;
+}
+
+.cb_faq_list .cb_headline {
+  margin-bottom: 28px;
+}
+
+.cb_faq_list .desc {
+  line-height: 2.4;
+  margin: -10px 0 0 0;
+}
+
+.cb_faq_list .desc.align_type2 {
+  text-align: center;
+}
+
+.cb_faq_list .desc.align_type3 {
+  text-align: right;
+}
+
+.cb_faq_list .design_button {
+  margin-top: 60px;
+}
+
+.cb_faq_list .faq_list {
+  margin-top: 50px;
+}
+
+
 
 /* =================================
 お問合せ
