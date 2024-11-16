@@ -53,10 +53,7 @@ header
       top: 8px;
       left: 12px;
       gap: 2px;
-
     }
-
-
 
     span {
       white-space: nowrap;
@@ -67,17 +64,11 @@ header
         font-size: 13px;
       }
     }
-
-
-
   }
 
   &__logo {
     width: 150px;
-
-
   }
-
 
   &__btn-wrap {
     position: fixed;
@@ -86,21 +77,13 @@ header
     top: 20px;
     width: 250px;
 
-
     @include tab {
       transform: scale(0.6);
       right: -42px;
       top: -2px;
     }
   }
-
-
-
 }
-
-
-
-
 
 
 /* =================================
@@ -109,7 +92,6 @@ main-visual
 
 .main-visual {
   background: linear-gradient(90deg, #f0f6f9 0%, #f0f6f9 50%, #144a66 50%, #144a66 100%);
-
 
   &__bg {
     background-image: url(../img/main-visual-bg.jpg);
@@ -133,9 +115,6 @@ main-visual
         background: rgba(131, 175, 209, 0.6);
       }
     }
-
-
-
   }
 
   &__content {
@@ -145,14 +124,10 @@ main-visual
     transform: translate(-50%, -50%);
     z-index: 10;
 
-
-
-
     @include tab {
       top: 67%;
       left: 50%;
       width: 90%;
-
     }
   }
 
@@ -173,8 +148,6 @@ main-visual
   }
 
 
-
-
   &__bottom {
     margin: 40px 0 0 40px;
 
@@ -188,7 +161,6 @@ main-visual
     @include tab {
       margin: 40px 0 0;
       text-align: center;
-
     }
   }
 
@@ -200,16 +172,15 @@ main-visual
     text-shadow: 2px 2px 0px rgba(255, 255, 255, 1);
     white-space: nowrap;
 
-
     &--middle {
       font-size: 40px;
 
       span {
         font-size: 24px;
       }
-
     }
   }
+
 
   @keyframes zoomInAnime {
     from {
@@ -236,7 +207,6 @@ lead-section
 
   @include tab {
     padding: 40px 12px;
-
   }
 
 
@@ -249,7 +219,6 @@ lead-section
     @include tab {
       font-size: 28px;
     }
-
   }
 
   &__flex {
@@ -259,7 +228,6 @@ lead-section
     align-items: center;
     margin: 0 0 40px;
 
-
     @include tab {
       flex-direction: column;
     }
@@ -267,7 +235,6 @@ lead-section
 
   &__bottom-img {
     width: 80px;
-
   }
 
 
@@ -280,32 +247,6 @@ lead-section
     max-width: 980px;
     margin: 0 auto;
   }
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-
 }
 
 
@@ -322,7 +263,6 @@ AIブログマーケティングとは？
 
     @include tab {
       padding: 40px 12px 0;
-
     }
   }
 
@@ -349,7 +289,6 @@ AIブログマーケティングとは？
     @include tab {
       text-align: left;
       font-size: 18px;
-
     }
   }
 
@@ -359,7 +298,6 @@ AIブログマーケティングとは？
 
     @include tab {
       margin: 110px 0 0;
-
     }
   }
 
@@ -428,26 +366,6 @@ AIブログマーケティングとは？
 
     }
   }
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-
 }
 
 
@@ -458,7 +376,6 @@ AIブログマーケティングとは？
 .merit-section {
   background-color: #000;
   overflow: hidden;
-
 
 
   &__ttl-wrap {
@@ -551,11 +468,8 @@ AIブログマーケティングとは？
       @include tab {
         margin: 0 auto;
       }
-
     }
   }
-
-  &__item-left {}
 
   &__item-img {
     width: 150px;
@@ -564,7 +478,6 @@ AIブログマーケティングとは？
     @include tab {
       width: 100px;
       margin: 0 auto 8px;
-
     }
   }
 
@@ -580,22 +493,7 @@ AIブログマーケティングとは？
 
   &__item-text {
     color: #fff;
-
   }
-
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
 
 }
 
@@ -612,7 +510,6 @@ AIブログマーケティングとは？
 
   @include tab {
     padding: 40px 12px;
-
   }
 
   &__ttl-wrap {
@@ -630,9 +527,7 @@ AIブログマーケティングとは？
     @include tab {
       padding: 12px;
       gap: 16px;
-
     }
-
   }
 
   &__ttl {
@@ -668,7 +563,6 @@ AIブログマーケティングとは？
     @include tab {
       flex-direction: column;
       gap: 12px;
-
     }
   }
 
@@ -677,7 +571,6 @@ AIブログマーケティングとは？
   }
 
   &__top-date {
-
     display: flex;
     gap: 8px;
 
@@ -697,10 +590,8 @@ AIブログマーケティングとは？
 
       @include tab {
         font-size: 16px;
-
       }
     }
-
   }
 
   &__top-list {}
@@ -716,8 +607,6 @@ AIブログマーケティングとは？
       font-size: 22px;
       line-height: 1.8;
       margin: 0 auto 24px;
-
-
     }
 
 
@@ -744,10 +633,8 @@ AIブログマーケティングとは？
 
       @include tab {
         text-align: right;
-
       }
     }
-
   }
 
   &__bottom-content {
@@ -756,7 +643,6 @@ AIブログマーケティングとは？
 
     @include tab {
       margin: 0 auto 40px;
-
     }
   }
 
@@ -768,9 +654,7 @@ AIブログマーケティングとは？
 
     @include tab {
       font-size: 20px;
-
     }
-
   }
 
   &__bottom-img {
@@ -797,12 +681,8 @@ AIブログマーケティングとは？
         transform: scale(0.4) rotate(-11deg);
         top: -107px;
         left: -105px;
-
       }
     }
-
-
-
   }
 
   &__bottom-list-item {
@@ -845,8 +725,6 @@ AIブログマーケティングとは？
       width: 30%;
     }
   }
-
-
 }
 
 
@@ -877,8 +755,6 @@ AIブログマーケティングとは？
       padding: 10px;
       max-width: 90%;
       margin: 0 auto 40px;
-
-
     }
 
     &::before {
@@ -919,7 +795,6 @@ AIブログマーケティングとは？
         right: -182px;
       }
     }
-
   }
 
   &__item {
@@ -953,7 +828,6 @@ AIブログマーケティングとは？
 
     }
   }
-
 
 
   &__item-date {
@@ -990,9 +864,7 @@ AIブログマーケティングとは？
 
     @include tab {
       font-size: 18px;
-
     }
-
 
     span {
       color: #53c2ef;
@@ -1005,7 +877,6 @@ AIブログマーケティングとは？
         margin: 0 0 0 0;
 
       }
-
     }
   }
 
@@ -1022,7 +893,6 @@ AIブログマーケティングとは？
       padding: 6px 12px;
       line-height: 1;
       display: inline-block;
-
     }
   }
 
@@ -1041,17 +911,6 @@ AIブログマーケティングとは？
       width: 30%;
     }
   }
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
 }
 
 
@@ -1221,8 +1080,6 @@ AIブログマーケティングとは？
     @include sp {
       padding: 18px;
     }
-
-
   }
 
   &__item-num {
@@ -1250,11 +1107,8 @@ AIブログマーケティングとは？
       @include tab {
         right: auto;
         left: -23px;
-
       }
-
     }
-
   }
 
   &__item-ttl {
@@ -1290,7 +1144,6 @@ AIブログマーケティングとは？
     @include sp {
       font-size: 38px;
     }
-
   }
 
   &__place-span-left {
@@ -1319,7 +1172,6 @@ AIブログマーケティングとは？
   &__place-span-center {
     font-size: 32px;
     letter-spacing: 0rem;
-
   }
 
   &__star-wrap {
@@ -1331,7 +1183,6 @@ AIブログマーケティングとは？
 
     @include sp {
       gap: 4px;
-
     }
   }
 
@@ -1342,9 +1193,7 @@ AIブログマーケティングとは？
 
     @include sp {
       font-size: 14px;
-
     }
-
   }
 
   &__star-img {
@@ -1352,7 +1201,6 @@ AIブログマーケティングとは？
 
     &--three {
       width: 120px;
-
     }
 
     &--five {
@@ -1384,9 +1232,7 @@ AIブログマーケティングとは？
     @include sp {
       padding: 12px;
       margin: 24px 0 0;
-
     }
-
   }
 
   &__item03-text-top {
@@ -1401,14 +1247,11 @@ AIブログマーケティングとは？
 
   &__item03-span02 {
     font-size: 14px;
-
   }
-
 
   &__item03-text-bottom {
     color: #fff;
     font-size: 14px;
-
   }
 
   &__item04-text {
@@ -1418,24 +1261,8 @@ AIブログマーケティングとは？
 
     @include tab {
       font-size: 18px;
-
     }
   }
-
-  &__place-item04-img {}
-
-  &__ {}
-
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-
 }
 
 /* =================================
@@ -1469,7 +1296,6 @@ AIブログマーケティングとは？
 
     @include sp {
       margin: 0 auto 60px;
-
     }
   }
 
@@ -1484,7 +1310,6 @@ AIブログマーケティングとは？
       font-size: 18px;
       text-align: center;
       margin: 0 0 8px;
-
     }
 
     @include sp {
@@ -1555,11 +1380,7 @@ AIブログマーケティングとは？
     &--even {
       left: auto;
       right: -1px;
-
-
-
     }
-
   }
 
   &__item-ttl {
@@ -1592,7 +1413,6 @@ AIブログマーケティングとは？
       span {
         display: block;
       }
-
     }
   }
 
@@ -1618,7 +1438,6 @@ AIブログマーケティングとは？
     @include sp {
       font-size: 38px;
     }
-
   }
 
   &__place-span-left {
@@ -1722,33 +1541,6 @@ AIブログマーケティングとは？
 
     }
   }
-
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-
 }
 
 
@@ -1809,7 +1601,6 @@ AIブログマーケティングとは？
 
     @include tab {
       width: 1200px;
-
     }
 
 
@@ -1826,9 +1617,7 @@ AIブログマーケティングとは？
         width: 160px;
         height: 80px;
         padding: 2px;
-
       }
-
     }
 
     th {
@@ -1839,7 +1628,6 @@ AIブログマーケティングとは？
 
       @include tab {
         font-size: 14px;
-
       }
     }
 
@@ -1876,53 +1664,10 @@ AIブログマーケティングとは？
         color: #e00000;
       }
     }
-
-
-
   }
 
   &__td-ttl {
     position: relative;
-
-    // &:before {
-    //   content: url(../img/spec-section-td-ttl01.png);
-    //   position: absolute;
-    //   top: -6px;
-    //   left: -130px;
-    //   transform: scale(0.9);
-
-
-    //   @include tab {
-    //     transform: scale(0.8);
-    //     top: -13px;
-    //   }
-    // }
-
-    // &--00 {
-    //   &:before {
-    //     visibility: hidden;
-    //   }
-    // }
-
-    // &--02 {
-    //   &:before {
-    //     content: url(../img/spec-section-td-ttl02.png);
-    //   }
-    // }
-
-    // &--03 {
-    //   &:before {
-    //     content: url(../img/spec-section-td-ttl03.png);
-    //   }
-    // }
-
-    // &--04 {
-    //   &:before {
-    //     content: url(../img/spec-section-td-ttl04.png);
-    //   }
-    // }
-
-
   }
 
 
@@ -1931,42 +1676,13 @@ AIブログマーケティングとは？
     position: absolute;
     top: -6px;
     left: 0;
-    padding: 0!important;
-    width: 260px!important;
+    padding: 0 !important;
+    width: 260px !important;
 
     @include tab {
-      width: 220px!important;
-
+      width: 220px !important;
     }
-
-
   }
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-
 }
 
 /* =================================
@@ -1975,10 +1691,10 @@ AIブログマーケティングとは？
 
 .faq-section {
 
-  padding: 20px 12px;
+  padding: 20px 12px 80px;
 
   @include tab {
-    padding: 40px 12px 12px;
+    padding: 40px 12px 40px;
   }
 
   &__ttl {
@@ -1988,41 +1704,11 @@ AIブログマーケティングとは？
     position: relative;
     color: #53c2ef;
 
-
-
     @include tab {
       font-size: 32px;
       margin: 0 0 24px;
     }
   }
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-
 }
 
 
@@ -2048,9 +1734,8 @@ AIブログマーケティングとは？
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
 
-  @include tab{
+  @include tab {
     padding: 12px 55px 12px 12px;
-
   }
 }
 
@@ -2091,7 +1776,7 @@ AIブログマーケティングとは？
   padding: 48px 55px 50px;
   background: #f7f7f7;
 
-  @include tab{
+  @include tab {
     padding: 12px;
 
   }
@@ -2101,30 +1786,11 @@ AIブログマーケティングとは？
   line-height: 2.4;
 }
 
-.cb_faq_list .cb_headline {
-  margin-bottom: 28px;
+.faq_list .answer p span {
+  background: linear-gradient(transparent 60%, #ff6 60%);
 }
 
-.cb_faq_list .desc {
-  line-height: 2.4;
-  margin: -10px 0 0 0;
-}
 
-.cb_faq_list .desc.align_type2 {
-  text-align: center;
-}
-
-.cb_faq_list .desc.align_type3 {
-  text-align: right;
-}
-
-.cb_faq_list .design_button {
-  margin-top: 60px;
-}
-
-.cb_faq_list .faq_list {
-  margin-top: 50px;
-}
 
 
 
@@ -2134,41 +1800,172 @@ AIブログマーケティングとは？
 
 .contact-section {
 
-  &__ {}
 
-  &__ {}
+  padding: 80px 12px;
+  background-color: #999999;
 
-  &__ {}
+  @include tab {
+    padding: 40px 12px;
+  }
 
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
+  &__ttl {
+    text-align: center;
+    font-size: 44px;
+    margin: 0 auto 40px;
+    position: relative;
+    color: #ffffff;
 
 
+
+    @include tab {
+      font-size: 32px;
+      margin: 0 0 24px;
+    }
+  }
+
+
+  &__content {
+    max-width: 980px;
+    margin: 0 auto;
+  }
+
+  &__text {
+    margin: 0 0 40px;
+    text-align: center;
+
+    @include tab {
+      text-align: left;
+      margin: 0 0 8px;
+
+    }
+
+    span {
+      color: #ed1c24;
+    }
+  }
+
+  &__form-wrap {
+    background-color: #fff;
+    padding: 40px;
+    margin: 0 0 40px;
+
+    @include tab {
+      padding: 12px 12px 24px;
+    }
+  }
+
+  &__form-table {
+    width: 100%;
+
+    th {
+      text-align: left;
+      color: #000000;
+      padding: 14px 0 24px;
+      width: 280px;
+      vertical-align: middle;
+      font-weight: normal;
+      font-size: 16px;
+
+      @include pc {
+        width: 180px;
+      }
+
+      @include tab {
+        width: 100%;
+        display: block;
+        padding: 16px 0 2px;
+        font-size: 14px;
+      }
+
+      span {
+        color: #ed1c24;
+        display: inline-block;
+        margin: 0 0 0 8px;
+      }
+    }
+
+    td {
+      padding: 16px 0 0;
+      font-size: 16px;
+
+      @include tab {
+        width: 100%;
+        display: block;
+        padding: 0 0 0;
+        font-size: 14px;
+      }
+    }
+  }
+
+  &__input {
+    border: #898989 1px solid;
+    width: 100%;
+    padding: 8px;
+
+  }
+
+  &__textarea {
+    border: #898989 1px solid;
+    width: 100%;
+    padding: 8px;
+
+  }
+
+  &__bottom-text {
+    text-align: center;
+    margin: 0 0 12px;
+  }
+
+  &__last-text-link {
+    color: #158ecf;
+    text-decoration: underline;
+  }
+
+  &__checkbox-wrap {
+    text-align: center;
+    margin: 0 0 40px;
+
+    label {
+      color: #000;
+    }
+
+    @include tab {
+      margin: 0 0 24px;
+
+    }
+  }
+
+  &__checkbox {}
+
+  &__btn-wrap {}
+
+  &__btn {
+    width: 200px;
+    display: flex;
+    height: 46px;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    padding: 0 45px 0 25px;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    line-height: 1.3;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 0.3s;
+    border-radius: 50px;
+    margin: 0 auto;
+  }
+
+  &__input-wrap {
+    .wpcf7-list-item {
+      width: 100%;
+      display: inline-block;
+    }
+  }
 }
 
 
@@ -2178,8 +1975,7 @@ AIブログマーケティングとは？
  ================================= */
 
 .footer {
-  background-image: url(../img/footer-bg.jpg);
-  background-size: cover;
+  background-color: #000;
   padding: 60px 16px 24px;
   color: #fff;
   position: relative;
@@ -2189,9 +1985,9 @@ AIブログマーケティングとは？
     color: #fff;
   }
 
-  &__logo-wrap {
-    display: flex;
-    max-width: 500px;
+  &__logo {
+    display: block;
+    max-width: 200px;
     margin: 0 auto 40px;
     align-items: center;
     gap: 16px;
@@ -2201,77 +1997,6 @@ AIブログマーケティングとは？
     }
   }
 
-  &__logo-left {
-
-    @include tab {
-      max-width: 280px;
-    }
-  }
-
-  &__logo-right {
-    @include tab {
-      max-width: 280px;
-    }
-  }
-
-  &__address-wrap {
-    display: flex;
-    max-width: 560px;
-    margin: 0 auto 40px;
-    border-left: #bababa 1px solid;
-    border-right: #bababa 1px solid;
-    align-items: flex-start;
-
-    @include tab {
-      flex-direction: column;
-      border-left: none;
-      border-right: none;
-      max-width: 280px;
-      gap: 40px;
-    }
-  }
-
-  &__address-left {
-    width: 50%;
-    padding: 10px 0 10px 40px;
-    border-right: #bababa 1px solid;
-
-
-    @include tab {
-      width: 100%;
-      border-right: none;
-      padding: 0;
-    }
-  }
-
-  &__address-right {
-    width: 50%;
-    padding: 10px 0 10px 40px;
-
-    @include tab {
-      width: 100%;
-      border-right: none;
-      padding: 0;
-    }
-  }
-
-
-  &__address-ttl {
-    margin: 0 0 20px;
-
-    @include tab {
-      margin: 0 0 8px;
-    }
-  }
-
-  &__address-table {
-
-    th {
-      font-weight: normal;
-      padding: 0 20px 0 0;
-      white-space: nowrap;
-    }
-  }
 
   &__menu-wrap {
     display: flex;
@@ -2281,14 +2006,17 @@ AIブログマーケティングとは？
     @include tab {
       flex-wrap: wrap;
       gap: 8px;
-
     }
   }
 
   &__menu-item {
 
+    font-size: 16px;
+
     @include tab {
       margin: 0 8px;
+      font-size: 14px;
+
     }
 
     &--copy {
@@ -2300,15 +2028,16 @@ AIブログマーケティングとは？
   }
 
   &__go-top {
-    width: 80px;
+    width: 60px;
     position: absolute;
     right: 20px;
-    bottom: 100px;
+    bottom: 20px;
 
     @include tab {
-      width: 50px;
+      width: 40px;
       right: 20px;
-      bottom: 100px;
+      bottom: auto;
+      top: 10px;
 
     }
   }
